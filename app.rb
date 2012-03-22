@@ -1,3 +1,4 @@
+#raftar
 require 'sinatra'
 
 get'/'do
@@ -15,4 +16,8 @@ end
 get'/ab'do
   haml :c
 end
+
+get'/abc'do
+  css  :raftar
+end  
 
